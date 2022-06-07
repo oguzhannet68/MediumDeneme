@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 
 const TelegramBot = require('node-telegram-bot-api');
-const token = '5543251251:AAF5qTh37dvExQ11kaTnY20xzBSnE5gm3-Y' // BotFather üzerinden aldığımız token. Benim tokenimi yazmayın. :)
+const token = 'BotFather üzerinden aldığınız Token' // BotFather üzerinden aldığımız token. Benim tokenimi yazmayın. :)
 const bot = new TelegramBot(token, {polling: true});
 const cron = require('node-cron');
 
